@@ -33,7 +33,7 @@ int main(void)
   for(double p0=0.1;p0<=5;p0+=0.1){
     x=0;
     y0[0] = p0;
-    y0[1] = -p0/sqrt(1+pow(p0,2));
+    y0[1] = 0;//-p0/sqrt(1+pow(p0,2));
 	while(x<=L)
 	{
 		x += dx;
